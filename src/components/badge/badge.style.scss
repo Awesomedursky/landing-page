@@ -1,0 +1,15 @@
+.badge {
+  background-color: rgba(128, 128, 128, 0.059);
+  padding: 10px;
+  display: inline-block;
+
+  .title {
+    font-size: 1.5rem;
+    margin-right: 5px;
+  }
+  .portion {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    // letter-spacing: 2px;
+  }
+}

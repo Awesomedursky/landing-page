@@ -1,0 +1,23 @@
+.grid-item {
+  width: auto;
+  background-color: white;
+  border-bottom: solid black 5px;
+  overflow: hidden;
+
+  @media (max-width: 960px ) {
+    // flex-basis: 100%;
+  }
+  .img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .badge {
+    margin-left: 2rem;
+  }
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-left: 1.5rem;
+    padding-bottom: .5rem;
+  }
+}

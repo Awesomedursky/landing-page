@@ -1,0 +1,38 @@
+.showcase {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+
+  .section-one {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+    margin-top: 3rem;
+
+    h1 {
+      font-size: 4.5rem;
+      font-weight: 500;
+      margin-bottom: 0;
+    }
+    p{
+        font-size: 1.5rem;
+    }
+
+    .group {
+      display: flex;
+      margin-bottom: 10rem;
+
+      .badge {
+        margin-right: 2rem;
+      }
+    }
+  }
+  .section-two {
+    flex-grow: 1;
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.heading {
+  font-size: 5rem;
+  font-weight: 400;
+}
+.grid-group {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(300px, 1fr)
+  );
+  grid-gap: 20px;
+  margin: 10px;
+}
